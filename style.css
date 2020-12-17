@@ -865,12 +865,14 @@ margin-right: 10px;
 nav,
 ul {
     margin: 0;
+    display: flex;
+    justify-content: space-between;
 
 }
 
 nav li {
     display: inline;
-    padding: 1em 3%;
+    
 }
 
 nav a {
