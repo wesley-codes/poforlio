@@ -793,7 +793,8 @@ footer {
     .container-9,
     .container-10,
     .Testimonial-p {
-        font-size: 0.9em;
+        font-size: 1em;
+        word-spacing: 1;
         font-weight: 500;
         text-align: left;
         margin-right: 20px;
@@ -834,8 +835,8 @@ footer {
 
     .Testimonial-img {
         margin-top: 25px;
-        width: 20%;
-        border-radius: 60%;
+        width: 40%;
+        border-radius: 50%;
     }
 
 
