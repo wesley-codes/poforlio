@@ -629,11 +629,11 @@ footer {
     }
 
     .container-1 button {
-        padding: 10px;
+        padding: 15px;
         width: 100%;
         background-color: transparent;
         border-radius: 50px;
-        font-size: 20px;
+        font-size: 10px;
         color: white;
     }
 
@@ -710,6 +710,7 @@ footer {
         box-sizing: inherit;
         text-align: center;
         object-fit: contain;
+        box-shadow: 5px 10px 8px #888888;
         transition: transform 0.2s ease-in;
 
     }
