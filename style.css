@@ -6,8 +6,8 @@ html {
     padding: 0;
     font-family: 'Jost', sans-serif;
     overflow-x: hidden;
-    
-    
+
+
 
 }
 
@@ -65,7 +65,7 @@ nav {
 
     font-size: 4em;
     font-style: normal;
-    font-weight:7500;
+    font-weight: 7500;
 
 }
 
@@ -102,7 +102,7 @@ button {
 
 }
 
-button:hover{
+button:hover {
     cursor: pointer;
 }
 
@@ -128,10 +128,10 @@ button:hover{
 video {
 
     width: 60%;
-    
+
     box-sizing: inherit;
     text-align: center;
-    
+
     transition: transform 0.2s ease-in;
 
 }
@@ -145,73 +145,75 @@ video:hover {
 
 
 
-.row{
+.row {
     margin: 0px auto;
     max-width: 1160px;
-    
+
 }
 
-.row, h2{
+.row,
+h2 {
     font-size: 1.3rem;
-    
+
     bottom: 10px;
-padding-bottom: 10px;
- 
+    padding-bottom: 10px;
+
 }
 
 
-    
- 
 
 
 
-.underlined{
+
+
+.underlined {
     text-align: left;
     margin-left: auto;
     padding-top: 100px;
 }
+
 .underlined:after {
     content: "";
     display: block;
     background: black;
-  position: absolute;
+    position: absolute;
     margin: 0px 0px 10px;
     height: 2px;
     width: 120px;
-    
+
 }
 
-.text h3{
+.text h3 {
     font-size: 40px;
     padding-top: 10px;
- 
+
 }
 
-.container{
+.container {
     display: flex;
-    flex-direction:row-reverse;
+    flex-direction: row-reverse;
     justify-content: space-between;
     padding-bottom: 20%;
 }
 
-.content{
+.content {
     display: flex;
     align-items: center;
     flex: 1;
     padding-right: 5rem;
 }
 
-.container p{
+.container p {
     font-size: 1.1em;
 }
 
 
-.container ul{
+.container ul {
     padding-bottom: 20px;
 }
 
-.container button-and-link{
-display: flex;
+.container button-and-link {
+    display: flex;
 }
 
 
@@ -260,22 +262,22 @@ display: flex;
 
 
 /*=================CONTAINER-6===========================*/
-.container-6{
+.container-6 {
     text-align: center;
     background-color: #F4F4F4;
     display: flex;
     flex-direction: column;
-    
-    
+
+
 }
 
-.container-6 div{
+.container-6 div {
     display: flex;
     flex-wrap: wrap;
-    
+
     margin: 0 5rem;
     padding-top: 4.5rem;
-    
+
     justify-content: space-evenly;
 }
 
@@ -283,28 +285,28 @@ display: flex;
 
 
 
-.container-6 hr{
+.container-6 hr {
     width: 7.5rem;
     border: 1px solid;
     color: #193335;
 }
 
-.container-6 h2{
+.container-6 h2 {
     padding-top: 100px;
     font-size: 4rem;
-  margin: auto; 
-  color: #333333;
-    
+    margin: auto;
+    color: #333333;
+
 }
 
-.gitpod-logos{
+.gitpod-logos {
     width: 150px;
     height: 50px;
     margin-bottom: 6rem;
     margin: 0 5rem;
 }
 
-.thiea-logos{
+.thiea-logos {
     width: 150px;
     height: 50px;
     margin-bottom: 6rem;
@@ -312,38 +314,38 @@ display: flex;
 }
 
 
-.nl-logos{
+.nl-logos {
     width: 50px;
     margin-bottom: 6rem;
-   
+
 }
 
-.vsx-logos{
+.vsx-logos {
     margin: 0 5rem;
     margin-bottom: 6rem;
     width: 270px;
 }
 
-.typeforce-logos{
+.typeforce-logos {
     width: 200px;
-  
+
     margin-bottom: 6rem;
     margin-left: 240px;
 }
 
-.ideacraft-logos{
+.ideacraft-logos {
     margin: 0 5rem;
     margin: 0 5rem;
-    width:187px ;
+    width: 187px;
     height: 50px;
     margin-bottom: 6rem;
 }
 
-.eclipse-logos{
-    
-  
+.eclipse-logos {
+
+
     margin: 0 5rem;
-    width:150px ;
+    width: 150px;
     margin-bottom: 6rem;
 }
 
@@ -353,94 +355,99 @@ display: flex;
 /*=================CONTAINER-7===========================*/
 
 
-.container-7{
+.container-7 {
     text-align: center;
     position: relative;
 }
 
-.container-7:after{
+.container-7:after {
     content: "";
-  background: black;
-  position: absolute;
-  bottom: 0;
-  left:90px;
-  
+    background: black;
+    position: absolute;
+    bottom: 0;
+    left: 90px;
 
-  height: 1px;
-  width: 45%;
+
+    height: 1px;
+    width: 45%;
 }
 
-.container-7, h2{
+.container-7,
+h2 {
     padding-top: 50px;
     font-size: 2em;
-  margin: auto; 
-  font-weight: 500;
-  width: fit-content;
-  color: #333333;
+    margin: auto;
+    font-weight: 500;
+    width: fit-content;
+    color: #333333;
 }
 
 
 
 
-.container-8{
+.container-8 {
     text-align: center;
     display: flex;
     margin-left: 200px;
     margin-right: 200px;
     padding-bottom: 10%;
-    
+
 }
 
-.container-9,.container-10{
+.container-9,
+.container-10 {
     border: 1px solid;
-margin-top: 20px;
-flex: 1;
-box-shadow: 10px 10px 10px 10px #F9F9F9;
+    margin-top: 20px;
+    flex: 1;
+    box-shadow: 10px 10px 10px 10px #F9F9F9;
 
-    
-    
+
+
 }
 
-.Testimonial-name{
+.Testimonial-name {
     font-size: 1.1em;
 }
 
 
-.container-9,.container-10,.Testimonial-p{
-   font-size: 1.1em;
-font-weight: 500;
-   text-align: left;
-   margin-right: 20px;
-margin-left: 25px;
-    
-    
+.container-9,
+.container-10,
+.Testimonial-p {
+    font-size: 1.1em;
+    font-weight: 500;
+    text-align: left;
+    margin-right: 20px;
+    margin-left: 25px;
+
+
 }
 
-container-9 ,h3{
+container-9,
+h3 {
     font-size: 2.5em;
     font-style: normal;
     font-weight: 500;
-    
+
     margin-top: 0px;
     margin-bottom: 0px;
 
 }
 
-.container-9{
+.container-9 {
     margin-right: 10px;
     text-align: center;
-   
-    
+
+
 }
 
-.container-10{
-      margin-left: 10px;
-      text-align: center;
-    
-      
+.container-10 {
+    margin-left: 10px;
+    text-align: center;
+
+
 }
 
-.Testimonial-img{
+.Testimonial-img {
     margin-top: 50px;
     width: 20%;
     border-radius: 50%;
@@ -451,88 +458,88 @@ container-9 ,h3{
 
 
 
-.container-11{
+.container-11 {
     background-color: #F4F4F4;
     text-align: center;
     position: relative;
     padding-bottom: 5%;
 }
 
-.about-me{
+.about-me {
     padding-top: 100px;
     font-size: 3em;
     padding-bottom: 10px;
-  margin: auto; 
-  font-weight: 600;
-  width: fit-content;
-  color: #333333;
+    margin: auto;
+    font-weight: 600;
+    width: fit-content;
+    color: #333333;
 }
 
-.about-me:after{
+.about-me:after {
     content: "";
-  background: black;
-  position: absolute;
-  bottom: 0;
-  left:740px;
-  
-top: 180px;
-  height: 2px;
-  width: 6%;
+    background: black;
+    position: absolute;
+    bottom: 0;
+    left: 740px;
+
+    top: 180px;
+    height: 2px;
+    width: 6%;
 }
 
 
 
 
 
-.container-12{
+.container-12 {
     background-color: white;
     margin-left: 27%;
     margin-right: 27%;
     margin-top: 2%;
     box-shadow: 10px 10px 10px 10px #EEEEEE;
-    
+
 }
 
-.container-12{
-    
-   padding-left: 50px;
-   padding-right: 50px;
-   padding-top: 50px;
-    
+.container-12 {
+
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+
 }
 
-.about-me-img{
+.about-me-img {
     width: 50%;
     border-radius: 50%;
 }
 
-.container-12{
+.container-12 {
     text-align: center;
     padding-bottom: 2%;
 }
 
-.container-12 p{
+.container-12 p {
     text-align: left;
     font-size: 1.4em;
 }
 
-.spanned{
+.spanned {
     color: #4177A9;
     cursor: pointer;
 }
 
-.spanned:hover{
+.spanned:hover {
     text-decoration: underline;
 }
 
 
-footer{
+footer {
     text-align: center;
     color: white;
     background-color: black;
     text-align: center;
     margin: auto;
-   
+
 }
 
 
@@ -551,25 +558,26 @@ footer {
     text-decoration: none;
     padding: 1em 0.1em;
     text-align: end;
-   
-    
+
+
     font-size: 1.5em;
 }
 
-footer a{
+footer a {
     color: white;
     text-decoration: none;
 }
 
-footer  a:hover{
+footer a:hover {
     text-decoration: underline;
     color: white;
 }
 
-.nisar:hover{
+.nisar:hover {
     text-decoration: underline;
     cursor: pointer;
 }
+
 footer {
     text-align: Center;
     padding-bottom: 10%;
@@ -585,41 +593,41 @@ footer {
 
 
 
-@media (max-width:720px){
+@media (max-width:720px) {
 
     .container-1 {
         color: white;
         margin: 5px;
-    
-    
+
+
         margin-bottom: 0px;
-    
+
         padding: 30px;
-    
+
     }
-    
-    
+
+
     .container-1 h1 {
-    
+
         font-size: 40px;
         font-style: normal;
         font-weight: normal;
-        
-    
+
+
     }
-    
+
     .container-1 p {
         font-size: 1.5em;
-    
+
     }
-    
-    
+
+
     .container-1 div {
         width: 100%;
-        
-    
+
+
     }
-    
+
     .container-1 button {
         padding: 10px;
         width: 100%;
@@ -628,337 +636,347 @@ footer {
         font-size: 30px;
         color: white;
     }
-    
 
 
 
 
-    .underlined{
+
+    .underlined {
         text-align: left;
         margin-left: auto;
         padding-bottom: 10px;
         margin-left: 25px;
-        
-    padding-top: 50px;
+
+        padding-top: 50px;
 
     }
 
 
-    .underlined h3{
+    .underlined h3 {
         font-size: 50px;
     }
+
     .underlined:after {
         content: "";
         display: block;
         background: black;
-      position: absolute;
+        position: absolute;
         margin: 0px 0px 10px;
         height: 2px;
         width: 120px;
-        
+
     }
-    
-    .text h3{
+
+    .text h3 {
         font-size: 40px;
         padding-top: 5px;
-     
+
     }
-    
-    .container{
+
+    .container {
         display: block;
         justify-content: space-between;
         padding-bottom: 20%;
     }
-    
-    .content{
+
+    .content {
         display: flex;
         align-items: center;
         flex: 1;
         margin-left: 40px;
         padding-right: 5rem;
     }
-    
-    .container p{
+
+    .container p {
         font-size: 1.1em;
     }
-    
-    
-    .container ul{
+
+
+    .container ul {
         padding-bottom: 20px;
     }
-    
-    .container button-and-link{
-    display: flex;
-    
+
+    .container button-and-link {
+        display: flex;
+
     }
+
+
+
+    video {
+
+        width: 80%;
+        margin-left: 30px;
+        box-sizing: inherit;
+        text-align: center;
+        object-fit: contain;
+        transition: transform 0.2s ease-in;
+
+    }
+
+
+
+    .container-image {
+
+        width: 80%;
+        text-align: center;
+        padding-top: 1px;
+        margin-left: 30px;
+        transition: transform 0.2s ease-in-out;
+        border: 1px;
+        padding: 10px;
+        box-shadow: 5px 10px 8px #888888;
+
+    }
+
+    button {
+        border-radius: 50px;
+        padding: 10px;
+        width: 50%;
+        margin-top: 20px;
+        background-color: black;
+        color: white;
+
+
+    }
+
+    .container-7 h2 {
+        font-size: 35px;
+    }
+
+    .container-7:after {
+        content: "";
+        background: black;
+        position: absolute;
+        bottom: 0;
+        left: 40px;
+
+
+        height: 1px;
+        width: 46%;
+    }
+
+    .container-8 {
+        text-align: center;
+        display: block;
+        margin: auto;
+        padding-bottom: 10%;
+        margin-right: 30px;
+        margin-left: 30px;
+
+
+
+    }
+
+
+
+    .container-9,
+    .container-10 {
+
+        border: 1px solid;
+        margin-top: 20px;
+
+
+        box-shadow: 10px 10px 10px 10px #F9F9F9;
+
+
+
+    }
+
+    .Testimonial-name {
+        font-size: 20px;
+    }
+
+
+    .container-9,
+    .container-10,
+    .Testimonial-p {
+        font-size: 20px;
+        font-weight: 500;
+        text-align: left;
+        margin-right: 20px;
+        margin-left: 25px;
+
+
+    }
+
+    container-9,
+    h3 {
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+
+        margin-top: 0px;
+        margin-bottom: 0px;
+
+    }
+
+    .container-9 {
+        margin-right: 10px;
+
+        text-align: center;
+
+
+    }
+
+    .container-10 {
+
+        text-align: center;
+        margin-left: 23px;
+        margin-right: 10px;
+
+
+    }
+
+
+
+    .Testimonial-img {
+        margin-top: 25px;
+        width: 20%;
+        border-radius: 50%;
+    }
+
+
+
+    .container-11 {
+        background-color: #F4F4F4;
+        text-align: center;
+        position: relative;
+        padding-bottom: 5%;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .about-me {
+        padding-top: 100px;
+        font-size: 35px;
+        padding-bottom: 10px;
+        margin: auto;
+        font-weight: 600;
+        width: fit-content;
+
+    }
+
+
+
+
+    .container-12 {
+        text-align: center;
+        padding-bottom: 2%;
+
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
+
+    .container-12 p {
+        text-align: left;
+        font-size: 20px;
+    }
+
+
+
+    .header-ul {
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .header-ul li {
+        display: inline;
+
+    }
+
+    nav a {
+        text-decoration: none;
+        padding: 1em 0.1em;
+        text-align: end;
+        color: white;
+        display: inline-block;
+        font-size: 1.5em;
+    }
+
+    nav a:hover {
+        text-decoration: underline white;
+    }
+
+    nav {
+        text-align: end;
+    }
+
+
+    .container-6 {
+        text-align: center;
+        background-color: #F4F4F4;
+        display: flex;
+        
+        
+
+
+    }
+
+    .container-6 div {
+        display: flex;
+        flex-wrap: wrap;
+        
+        margin: 0 100px;
+        padding-top: 4.5rem;
+
+        justify-content: space-evenly;
+    }
+
+
+    .gitpod-logos {
+        width: 150px;
+        height: 50px;
+        margin-bottom: 6rem;
+        margin: 0 5rem;
+    }
+
+    .thiea-logos {
+        width: 150px;
+        height: 50px;
+        margin-bottom: 6rem;
+        padding-top: 20px;
+        margin: 5rem;
+    }
+
+
+    .nl-logos {
+        width: 50px;
+        margin-bottom: 6rem;
+        padding-top: 50px;
+    }
+
+    .vsx-logos {
+        margin: 0 5rem;
+        margin-bottom: 6rem;
+        width: 270px;
+    }
+
+    .typeforce-logos {
+        width: 200px;
+
+        margin-bottom: 6rem;
+        margin-left: 10px;
+    }
+
+    .ideacraft-logos {
+        margin: 0 5rem;
     
+        width: 187px;
+        height: 50px;
+        margin-bottom: 6rem;
+    }
 
-    
-video {
-
-    width: 80%;
-    margin-left: 30px;
-    box-sizing: inherit;
-    text-align: center;
-    object-fit: contain;
-    transition: transform 0.2s ease-in;
-
-}
-    
+    .eclipse-logos {
 
 
-.container-image {
-
-    width: 80%;
-    text-align: center;
-    padding-top: 1px;
-    margin-left: 30px;
-    transition: transform 0.2s ease-in-out;
-    border: 1px ;
-  padding: 10px;
-  box-shadow: 5px 10px 8px #888888;
-
-}
-
-button {
-    border-radius: 50px;
-    padding: 10px;
-    width:50%;
-    margin-top: 20px;
-    background-color: black;
-    color: white;
+        margin: 0 5rem;
+        width: 150px;
+        margin-bottom: 6rem;
+    }
 
 
 }
-
-.container-7 h2{
-    font-size: 35px;
-}
-
-.container-7:after{
-    content: "";
-  background: black;
-  position: absolute;
-  bottom: 0;
-  left:40px;
-  
-
-  height: 1px;
-  width: 46%;
-}
-.container-8{
-    text-align: center;
-    display:block ;
-    margin: auto;
-    padding-bottom: 10%;
-    margin-right: 30px;
-    margin-left: 30px;
-    
-    
-    
-}
-
-
-
-.container-9,.container-10{
-   
-    border: 1px solid;
-margin-top: 20px;
-
-
-box-shadow: 10px 10px 10px 10px #F9F9F9;
-
-    
-    
-}
-
-.Testimonial-name{
-    font-size: 20px;
-}
-
-
-.container-9,.container-10,.Testimonial-p{
-   font-size: 20px;
-font-weight: 500;
-   text-align: left;
-   margin-right: 20px;
-margin-left: 25px;
-    
-    
-}
-
-container-9 ,h3{
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 500;
-    
-    margin-top: 0px;
-    margin-bottom: 0px;
-
-}
-
-.container-9{
-    margin-right: 10px;
-    
-    text-align: center;
-   
-    
-}
-
-.container-10{
-      
-      text-align: center;
-      margin-left: 23px;
-margin-right: 10px;
-    
-      
-}
-
-
-
-.Testimonial-img{
-    margin-top: 25px;
-    width: 20%;
-    border-radius: 50%;
-}
-
-
-
-.container-11{
-    background-color: #F4F4F4;
-    text-align: center;
-    position: relative;
-    padding-bottom: 5%;
-    margin-right: 30px;
-    margin-left: 30px;
-}
-
-.about-me{
-    padding-top: 100px;
-    font-size: 35px;
-    padding-bottom: 10px;
-  margin: auto; 
-  font-weight: 600;
-  width: fit-content;
-  
-}
-
-
-
-
-.container-12{
-    text-align: center;
-    padding-bottom: 2%;
-    
-    margin-left: 0px;
-    margin-right: 0px;
-
-}
-
-.container-12 p{
-    text-align: left;
-    font-size: 20px;
-}
-
-
-
-.header-ul{
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.header-ul li {
-    display: inline;
-    
-}
-
-nav a {
-    text-decoration: none;
-    padding: 1em 0.1em;
-    text-align: end;
-    color: white;
-    display: inline-block;
-    font-size: 1.5em;
-}
-
-nav a:hover {
-    text-decoration: underline white;
-}
-
-nav {
-    text-align: end;
-}
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
