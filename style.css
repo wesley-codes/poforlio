@@ -653,7 +653,7 @@ footer {
 
 
     .underlined h3 {
-        font-size: 30px;
+        font-size: 1.3em;
     }
 
     .underlined:after {
@@ -668,7 +668,7 @@ footer {
     }
 
     .text h3 {
-        font-size: 40px;
+        font-size: 1.1em;
         padding-top: 5px;
 
     }
@@ -688,13 +688,13 @@ footer {
     }
 
     .container p {
-        font-size: 30px;
+        font-size: 0.5em;
     }
 
 
     .container ul {
         padding-bottom: 20px;
-        font-size: 7px;
+        font-size: 0.5em;
     }
 
     .container button-and-link {
