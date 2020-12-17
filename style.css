@@ -621,8 +621,8 @@ footer {
     }
     
     .container-1 button {
-        padding: 0.1rem;
-        width: 40%;
+        padding: 10px;
+        width: 70%;
         background-color: transparent;
         border-radius: 50px;
         font-size: 1em;
@@ -862,8 +862,7 @@ margin-right: 10px;
 
 
 
-nav,
-ul {
+.header-ul{
     margin: 0;
     display: flex;
     justify-content: space-between;
